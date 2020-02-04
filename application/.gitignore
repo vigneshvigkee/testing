@@ -16,3 +16,4 @@ application/logs/*
 !application/views/.htaccess
 /vendor/
 
+!application/controllers/product.php/
