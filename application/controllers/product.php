@@ -4,6 +4,9 @@ class Product extends CI_Controller{
         parent::__construct();
         $this->load->model('product_model');
     }
+    echo "<pre>";
+    print_r($_SEESION);
+    echo "</pre>";
      // function image_upload()  
      //  {  
      //       $data['title'] = "Upload Image using Ajax JQuery in CodeIgniter";  
